@@ -45,6 +45,7 @@ body {
 /* ------- Navigation ------------ */
 
 .navbar {
+  background-color: #f3f8f2;
   border-bottom: 2px solid #2e7e19;
   margin-bottom: 0;
 }
@@ -62,6 +63,7 @@ body {
 }
 
 .navbar-fixed-top ul.nav li a {
+  background-color: #f3f8f2;
   font-size: 14px;
   letter-spacing: 3px;
   color: #2e7e19;
@@ -70,6 +72,7 @@ body {
 }
 
 .navbar-fixed-top.top-nav-collapse ul.nav li a {
+  background-color: #f3f8f2;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -77,30 +80,36 @@ body {
 }
 
 .navbar-fixed-top ul.nav ul.dropdown-menu {
+  background-color: #f3f8f2;
   border-radius: 0;
   margin-top: 21px;
   border-top: none;
 }
 
 .navbar-fixed-top ul.nav li a:hover ul.dropdown-menu {
+  background-color: #f3f8f2;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
 .navbar-fixed-top ul.nav ul.dropdown-menu li:last-child {
+  background-color: #f3f8f2;
   border-bottom: none;
 }
 
 .navbar-fixed-top ul.nav ul.dropdown-menu li a {
+  background-color: #f3f8f2;
   padding: 10px 20px;
 }
 
 .navbar-fixed-top.top-nav-collapse ul.nav ul.dropdown-menu li a {
+  background-color: #f3f8f2;
   color: #2e7e19;
 }
 
 .navbar-fixed-top .nav li a {
+  background-color: #f3f8f2;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background 0.3s ease-in-out;
