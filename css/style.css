@@ -5,8 +5,9 @@
     Author URL: https://bootstrapmade.com
 */
 /* ==== Google font ==== */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,700,900');
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Questrial');
 
 body {
   width: 100%;
@@ -24,6 +25,12 @@ body {
   /* font-weight: 400; */
 }
 
+/* --- logos --- */
+.logo-icon {
+  font-size: 30px;
+}
+
+
 /* --- logo --- */
 .site-logo {
   margin-top: 40px;
@@ -34,7 +41,7 @@ body {
   color: #2e7e19;
   text-transform: uppercase;
   font-size: 30px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Questrial', sans-serif;
   font-weight: 900;
 }
 
@@ -166,6 +173,7 @@ body {
 }
 
 .section-heading h2 {
+  font-family: 'Questrial', sans-serif;
   font-size: 40px;
   letter-spacing: -1px;
   text-transform: uppercase;
@@ -186,17 +194,18 @@ body {
   color: #d09a43;
 } */
 
-
 /* ===========================
 --- Footer
 ============================ */
 
+/*
 footer {
   background-color: #1e5311;
-  /* opacity: 0.5; */
-}
+
+} */
 
 footer {
+  background-color: #1e5311;
   text-align: center;
   padding: 50px 0;
 }
