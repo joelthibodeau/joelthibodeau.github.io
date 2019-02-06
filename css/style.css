@@ -25,11 +25,40 @@ body {
   /* font-weight: 400; */
 }
 
-/* --- logos --- */
-.logo-icon {
-  font-size: 30px;
+a:link {
+  color: green;
+  text-decoration: none;
 }
 
+/* --- logos --- */
+.logo-icon {
+  color: #2e7e19;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+}
+
+/* .logo-icon:hover {
+  color: #d5e5d1;
+  font-size: 30px;
+  height: 30px;
+  width: 30px;
+} */
+
+.contact-logo-icon {
+  color: #2e7e19;
+}
+
+.contact-logo-icon:hover {
+  color: #96be8c;
+}
+
+/* [class^="flaticon-"]::before,
+[class*=" flaticon-"]::before,
+[class^="flaticon-"]::after,
+[class*=" flaticon-"]::after {
+  font-size: 60em;
+} */
 
 /* --- logo --- */
 .site-logo {
@@ -126,6 +155,7 @@ body {
 .navbar-fixed-top .nav li a:focus,
 .navbar-fixed-top .nav li.active {
   outline: 0;
+
   /* home button */
   background-color: #d5e5d1;
   color: #2e7e19;
