@@ -17,6 +17,7 @@ body {
   color: #2e7e19;
 
   /* main background color */
+
   /* same as mg2 w/ 50% opacity */
   background-color: #f3f8f2;
   font-size: 16px;
@@ -25,9 +26,21 @@ body {
   /* font-weight: 400; */
 }
 
+.img-thumbnail {
+  border: 1px solid #2e7e19;
+}
+
 a:link {
-  color: green;
+  color: #2e7e19;
   text-decoration: none;
+}
+
+a:hover {
+  color: #cf9849;
+}
+
+a:visited {
+  color: #2e7e19;
 }
 
 /* --- logos --- */
@@ -60,6 +73,18 @@ a:link {
   font-size: 60em;
 } */
 
+/* ||||||| HORIZONTAL DROPDOWN MENU ||||||| */
+.dropdown-menu li a {
+  display: inline-block;
+  float: left;
+}
+
+.open > ul {
+  display: inline-flex !important;
+}
+
+/* |||||||||||||||||||||||||||||||||||||||| */
+
 /* --- logo --- */
 .site-logo {
   margin-top: 40px;
@@ -76,6 +101,14 @@ a:link {
 
 .site-logo a.brand:hover {
   text-decoration: none;
+}
+
+.site-logo a.sub-song {
+  ccolor: #2e7e19;
+}
+
+.site-logo a.sub-song:hover {
+  color: #cf9849;
 }
 
 /* ------- Navigation ------------ */
@@ -204,7 +237,15 @@ a:link {
 
 .section-heading h2 {
   font-family: 'Questrial', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-heading h3 {
+  font-family: 'Questrial', sans-serif;
+  font-size: 20px;
   letter-spacing: -1px;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -235,7 +276,7 @@ footer {
 } */
 
 footer {
-  background-color: #1e5311;
+  background-color: #f3f8f2;
   text-align: center;
   padding: 50px 0;
 }
@@ -255,7 +296,7 @@ footer a:hover, .credits a:hover {
 }
 
 footer a.scrollup {
-  color: #fff;
+  color: #2e7e19;
   margin-bottom: 30px;
 }
 
@@ -272,19 +313,6 @@ footer a.scrollup:focus {
   font-size: 14px;
   line-height: 40px;
 }
-
-/* --- Map --- */
-/* .map {
-  position:relative;
-  padding-top: 100px;
-  margin-top: 30px;
-} */
-
-/* google map */
-/* #google-map{
-    position:relative;
-    height: 400px;
-} */
 
 .contact-wrap {
   margin-top: 80px;
